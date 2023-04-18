@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Sipping Society</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="title-container">
+                <h1>The Sipping Society</h1>
+                <img src="images/logo1234.jpg" alt="The Sipping Society Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions, concerns, or feedback? Get in touch with us using the form below, and we'll get back to you as soon as possible.</p>
+
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name <span class="required">*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+
+            <div id="form-output" style="display:none;">
+                <h3>Form Values</h3>
+                <p><strong>Name:</strong> <span id="output-name"></span></p>
+                <p><strong>Email:</strong> <span id="output-email"></span></p>
+                <p><strong>Phone:</strong> <span id="output-phone"></span></p>
+                <p><strong>Message:</strong></p>
+                <p id="output-message"></p>
+            </div>
+        </section>
+    </main>
+
+      <!-- Footer -->
+      <footer>
+        <p>Copyright © 2023 The Sipping Society Cocktail Bar</p>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/TheSippingSociety" target="_blank"><img src="images/FacebookIcon.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/TheSippingSociety" target="_blank"><img src="images/InstagramIcon.png" alt="Instagram"></a>
+            <a href="https://www.twitter.com/TheSippingSociety" target="_blank"><img src="images/TwitterIcon.png" alt="Twitter"></a>
+          </div>
+      </footer>
+</body>
+</html>
