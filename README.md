@@ -1,6 +1,6 @@
 # Web-Design-Project
-Web Design Project Due 17th April 9am
-
+Web Design Project - Simple webpage 
 
 Project 
 The Sipping Society - Cocktail Bar website 
+
